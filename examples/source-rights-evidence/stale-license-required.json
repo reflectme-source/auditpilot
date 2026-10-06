@@ -1,0 +1,38 @@
+{
+  "schema_version": "source-rights-evidence/1",
+  "source": {
+    "uri": "https://publisher.example/article-stale",
+    "identity": {
+      "scheme": "canonical_uri",
+      "value": "https://publisher.example/article-stale"
+    }
+  },
+  "intended_use": {
+    "purpose": "ai-index",
+    "user_class": "commercial"
+  },
+  "observation": {
+    "declaration_state": "license_required",
+    "observed_at": "2026-10-06T08:00:00Z",
+    "expires_at": "2026-10-06T09:00:00Z",
+    "evidence_ref": "urn:example:source-rights:stale-license-required",
+    "source_hashes": [
+      "sha256:2222222222222222222222222222222222222222222222222222222222222222"
+    ],
+    "license_refs": [
+      "https://publisher.example/licensing"
+    ]
+  },
+  "integrity": {
+    "verification_status": "verified",
+    "signature_algorithm": "Ed25519",
+    "signer_key_id": "synthetic-provider-key-2026-01",
+    "key_fingerprint": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "verified_at": "2026-10-06T08:00:02Z",
+    "raw_artifact_sha256": "sha256:cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+  },
+  "interpretation": {
+    "legal_clearance": false,
+    "requires_human_review": true
+  }
+}
