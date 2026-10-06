@@ -1,0 +1,36 @@
+{
+  "schema_version": "source-rights-evidence/1",
+  "source": {
+    "uri": "https://publisher.example/article-untrusted",
+    "identity": {
+      "scheme": "canonical_uri",
+      "value": "https://publisher.example/article-untrusted"
+    }
+  },
+  "intended_use": {
+    "purpose": "ai-input",
+    "user_class": "commercial"
+  },
+  "observation": {
+    "declaration_state": "declared_permitted_for_purpose",
+    "observed_at": "2026-10-06T10:25:00Z",
+    "expires_at": "2026-10-06T13:25:00Z",
+    "evidence_ref": "urn:sha256:1666666666666666666666666666666666666666666666666666666666666666",
+    "source_hashes": [
+      "sha256:2666666666666666666666666666666666666666666666666666666666666666"
+    ],
+    "license_refs": []
+  },
+  "integrity": {
+    "verification_status": "untrusted_key",
+    "signature_algorithm": "Ed25519",
+    "signer_key_id": "synthetic-unknown-key-2026-09",
+    "key_fingerprint": "sha256:3666666666666666666666666666666666666666666666666666666666666666",
+    "verified_at": "2026-10-06T10:25:02Z",
+    "raw_artifact_sha256": "sha256:4666666666666666666666666666666666666666666666666666666666666666"
+  },
+  "interpretation": {
+    "legal_clearance": false,
+    "requires_human_review": true
+  }
+}

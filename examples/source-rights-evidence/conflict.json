@@ -1,0 +1,38 @@
+{
+  "schema_version": "source-rights-evidence/1",
+  "source": {
+    "uri": "https://publisher.example/article-conflict",
+    "identity": {
+      "scheme": "canonical_uri",
+      "value": "https://publisher.example/article-conflict"
+    }
+  },
+  "intended_use": {
+    "purpose": "ai-train",
+    "user_class": "commercial"
+  },
+  "observation": {
+    "declaration_state": "conflict",
+    "observed_at": "2026-10-06T10:15:00Z",
+    "expires_at": "2026-10-06T13:15:00Z",
+    "evidence_ref": "urn:sha256:1444444444444444444444444444444444444444444444444444444444444444",
+    "source_hashes": [
+      "sha256:2444444444444444444444444444444444444444444444444444444444444444"
+    ],
+    "license_refs": [
+      "https://publisher.example/licensing/conflict"
+    ]
+  },
+  "integrity": {
+    "verification_status": "verified",
+    "signature_algorithm": "Ed25519",
+    "signer_key_id": "synthetic-provider-key-2026-01",
+    "key_fingerprint": "sha256:3444444444444444444444444444444444444444444444444444444444444444",
+    "verified_at": "2026-10-06T10:15:02Z",
+    "raw_artifact_sha256": "sha256:4444444444444444444444444444444444444444444444444444444444444444"
+  },
+  "interpretation": {
+    "legal_clearance": false,
+    "requires_human_review": true
+  }
+}
